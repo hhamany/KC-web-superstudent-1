@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+@font-face {
+    font-family:heading;
+    src: url(Roboto-Bold.ttf);
+}@font-face {
+    font-family:desc;
+    src: url(Roboto-Regular.ttf);
+}
+@font-face {
+    font-family:buy;
+    src: url(Roboto-Light.ttf);
+}@font-face {
+    font-family:iphone;
+    src: url(Roboto-Medium.ttf);
+}
+
+
+.header  img{ 
+    width: 20px;
+    height:25px;
+margin-left: 50px;
+margin-top: 8px;
+position: relative;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    padding: 100px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.buy { 
+    color: rgb(0, 127, 218);
+    font-size: 25px;
+    font-family: buy;
+    margin-left: 70px;
+    text-decoration: none;    
+}
+.buy:hover{
+    font-style: initial;
+cursor: pointer;
+text-decoration: underline;
+} 
+
+.learn { 
+    color: rgb(0, 127, 218);
+    font-size: 25px;
+    font-family: buy;
+    margin-left: 100px;
+    text-decoration: none;    
+}
+.learn:hover{
+    font-style: initial;
+cursor: pointer;
+text-decoration: underline;
+}
+
+header{ 
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    background-color: rgb(50, 47, 44);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+
+header  ul {
+    position: relative;
+    display: flex;
+}
+header  ul li { 
+    list-style: none;
+}
+
+header  ul li a { 
+    font-size: 15px;
+    font-family: desc;
+display: inline-block;
+color: rgb(234, 234, 234);
+font-weight: 400;
+text-align: center;
+padding-right: 100px;
+margin-top: 8px;
+text-decoration: none;
+
+}
+
+.IpadFrame{ 
+   display: flex;
+   width: 570px;
+ height: 550px;
+}
+
+.firstpage{ 
+    width: 550px; 
+    height: 550px; 
+margin-left: 200px;
+}
+
+ h1{ 
+    font-family: iphone;
+}
+h3{ 
+    margin-left: 20px;
+    display: block;
+    font-family: desc;
+    font-size: 40px;
+}
+
+.iphonecase{
+    position: relative;
+    display: flex;
+    justify-content: start;
+
+}
+
+.iphone14txt{
+    font-family: iphone;
+    color: rgb(0, 0, 0); 
+     font-size: 50px; 
+     display: block; 
+     margin-top: 20px;
+     
+}
+
+.iphone14protxt{
+    font-family: iphone;
+    color: white; 
+     font-size: 50px; 
+     display: block; 
+}
+
+.iphone{ 
+    font-family: iphone;
+    color: white;
+    font-size: 80px;
+    margin-left: 320px;
+    width: 800px;
+   position: absolute;
+
+}
+
+.iphone14img{ 
+    margin-top: 250px;
+    width: 550px; 
+    height: 308px; 
+margin-left: 400px;
+}
+
+
+.iphone14img2{ 
+    margin-top: 250px;
+    width: 500px; 
+    height: 408px; 
+margin-left: 400px;
+}
+
+
+.buy2 { 
+    color: rgb(0, 127, 218);
+    font-size: 25px;
+    font-family: buy;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-decoration: none;    
+}
+.buy2:hover{
+    font-style: initial;
+cursor: pointer;
+text-decoration: underline;
+} 
+
+.learn2 { 
+    margin-top: 30px;
+
+    color: rgb(0, 127, 218);
+    font-size: 25px;
+    font-family: buy;
+    text-decoration: none;    
+}
+.learn2:hover{
+    font-style: initial;
+cursor: pointer;
+text-decoration: underline;
+}
+
+
+
+.buy3{ 
+    color: rgb(0, 127, 218);
+    font-size: 25px;
+    font-family: buy;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-decoration: none;    
+}
+.buy3:hover{
+    font-weight: bolder;
+    font-style: initial;
+cursor: pointer;
+text-decoration: underline;
+} 
+
+.learn3 { 
+    margin-top: 30px;
+    color: rgb(0, 127, 218);
+    font-size: 25px;
+    font-family: buy;
+    text-decoration: none;    
+}
+.learn3:hover{
+font-weight: bolder;
+font-style: initial;
+cursor: pointer;
+text-decoration: underline;
+}
+
+
+.ipadpro{
+
+width:600px ;
+height: 400px;
+margin-top: 150px;
+
+}
+
+.container{ 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ 
+ }
+
+ .ipadprotxt{
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    font-size: 60px;
+    margin-left: 200px;
+ }
+ .applewatchtxt{
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    font-size: 60px;
+    margin-left: 100px;
+    font-family: desc;
+    
+ }
+
+ .applewatch{
+ 
+width:500px ;
+height: 300px;
+margin-top: 120px;
+margin-left: 30px;
+ }
+
+
+
+
+ .buy4{ 
+    color: rgb(0, 127, 218);
+    font-size: 15px;
+    font-family: desc;
+    margin-top: 50px;
+    margin-left: 30px;
+    text-decoration: none;    
+}
+.buy4:hover{
+    font-weight: bolder;
+    font-style: initial;
+cursor: pointer;
+text-decoration: underline;
+} 
+
+.learn4 { 
+    margin-top: 30px;
+    color: rgb(0, 127, 218);
+    font-size: 25px;
+    font-family: buy;
+    text-decoration: none;    
+}
+.learn4:hover{
+font-weight: bolder;
+font-style: initial;
+cursor: pointer;
+text-decoration: underline;
+}
+
+
+
+.buy4{ 
+    color: rgb(0, 127, 218);
+    font-size: 25px;
+    font-family: buy;
+    margin-top: 30px;
+
+    text-decoration: none;    
+}
+.buy4:hover{
+    font-weight: bolder;
+    font-style: initial;
+cursor: pointer;
+text-decoration: underline;
+} 
+
+.learn4{ 
+    margin-top: 30px;
+    color: rgb(0, 127, 218);
+    font-size: 25px;
+    font-family: buy;
+    text-decoration: none;    
+    margin-left: 150px;
+}
+.learn4:hover{
+font-weight: bolder;
+font-style: initial;
+cursor: pointer;
+text-decoration: underline;
+}
